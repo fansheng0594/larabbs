@@ -5,11 +5,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="737">
+              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
@@ -34,8 +45,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+            <state relative-caret-position="764">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/captcha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-536" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -51,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="383">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -75,6 +102,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/home</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,10 +128,11 @@
         <option value="$PROJECT_DIR$/resources/views/pages/root.blade.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/lang/zh-CN.json" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
       </list>
     </option>
@@ -192,6 +228,8 @@
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/mews/captcha" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -236,13 +274,20 @@
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
@@ -262,18 +307,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,12 +355,12 @@
       <workItem from="1548247909796" duration="66000" />
       <workItem from="1548247989982" duration="502000" />
       <workItem from="1548685705015" duration="1227000" />
-      <workItem from="1548770487404" duration="993000" />
+      <workItem from="1548770487404" duration="1983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4744000" />
+    <option name="totallyTimeSpent" value="5734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -431,24 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="22" column="94" selection-start-line="22" selection-start-column="94" selection-end-line="22" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -467,14 +486,45 @@
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="383">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
         </state>
       </provider>
     </entry>
